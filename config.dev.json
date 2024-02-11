@@ -1,12 +1,12 @@
 {
   "facebookAccount": {
-    "email": "",
-    "password": "",
+    "email": "aakashtony04@gmail.com",
+    "password": "zzzxxx",
     "2FASecret": "",
     "i_user": "",
     "proxy": null,
     "userAgent": "Mozilla/5.0 (Linux; Android 12; M2102J20SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Mobile Safari/537.36",
-    "intervalGetNewCookie": 4320,
+    "intervalGetNewCookie": 1440,
     "notes": "time the system automatically retrieves new cookies from email/password, unit is minute, if you set null, the system will not automatically retrieve new cookies, it saves you from having to manually change your cookie every time it expires. recommended set to 1440 (1day) or 4320 (3day).TO BE ABLE TO USE THIS FEATURE YOU NEED TO ENTER THE ACCOUNT PASSWORD ABOVE"
   },
   "antiInbox": false,
@@ -18,15 +18,18 @@
   },
   "adminBot": [
     "100087967063688",
-    ""
+    "",
+    "61555393416824"
   ],
   "whiteListMode": {
-    "enable": false,
-    "whiteListIds": [],
+    "enable": true,
+    "whiteListIds": [
+      "100087967063688",
+      "61555393416824"
+    ],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
   "nickNameBot": "FRiDA",
-  "ownerlink": "https://www.facebook.com/swordigo.swordslush",
   "prefix": "-",
   "database": {
     "type": "sqlite",
@@ -38,15 +41,15 @@
   "timeZone": "Asia/Ho_Chi_Minh",
   "credentials": {
     "gmailAccount": {
-      "email": "cliffbotbeluga@gmail.com",
-      "clientId": "335951889803-q0sqvpqjire12vl0c1drqpvq6trqe7qi.apps.googleusercontent.com",
-      "clientSecret": "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",
-      "refreshToken": "1//04vKSsirtbMjRCgYIARAAGAQSNwF-L9Ir45Y2gJy6rg7wvfCbzF5fTFQxOhV83N6jQC-N5n6S-rNnEUgujiuWu4OvrLEbmELMcSI",
-      "apiKey": ""
+      "email": "nashvillanueva011@gmail.com",
+      "clientId": "1039119486251-uecc99cm73qjdng2qennpkgknm17j5mk.apps.googleusercontent.com",
+      "clientSecret": "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",
+      "refreshToken": "1//04leedTS_qk2rCgYIARAAGAQSNwF-L9Irdqi5JlqyPDqZmZxGtzdy6bt5E3h-gbut0Sitbvlne_mR7qJLvYYAs1NNeKwHshatpG0",
+      "apiKey": "ya29.a0AfB_byA_5dyJRmS_hCo5LWry0UgP6LsfS8IGl__D4CWtme4M7Rt2cMv04v57CfufdtRm5IXVgFmNnHFtfKfmMaWPVmGtEbqs7zmkjf9Y474OwOPRkkR0BD3RvWMtcDPQDSZwdOLhIMDYBcXFA0-jdgM3M7szCaU54-3kaCgYKAecSARMSFQGOcNnCfr0HmbB-l6ghhyQT28GElQ0171"
     },
     "gRecaptcha": {
-      "siteKey": "6LcEPTMpAAAAAKRhQmTp03g4rkq-U6jXs8E8rDf5",
-      "secretKey": "6LcEPTMpAAAAAKRhQmTp03g4rkq-U6jXs8E8rDf5"
+      "siteKey": "6Lc5EdgoAAAAAEv68jPEPY-5E0On3OcGiS7eFJIJ",
+      "secretKey": "6Lc5EdgoAAAAAGDtxbP7mdmK-0VuIBZSlSYOGZoN"
     }
   },
   "dashBoard": {
@@ -77,7 +80,7 @@
     "enable": false,
     "ignoreCmds": "",
     "ignoreEvents": "",
-    "notes": "this feature will automatically load the script when scripts have been changed, you can set ignoreCmds to ignore commands, ignoreEvents to ignore events, separate by comma or space, example: \cmd1.js cmd2.js cmd3.js\ (without backslash)"
+    "notes": "this feature will automatically load the script when scripts have been changed, you can set ignoreCmds to ignore commands, ignoreEvents to ignore events, separate by comma or space, example: \"cmd1.js cmd2.js cmd3.js\" (without backslash)"
   },
   "autoRefreshFbstate": true,
   "autoReloginWhenChangeAccount": false,
@@ -94,10 +97,47 @@
     "gmail": {
       "enable": false,
       "emailGetNoti": "",
-      "note": "Bot will use gmailAccount to send email to emailGetNoti, can send notifications to many email, separate by comma or space, example: \example1@gmail.com example2@gmail.com\ (without backslash)"
+      "note": "Bot will use gmailAccount to send email to emailGetNoti, can send notifications to many email, separate by comma or space, example: \"example1@gmail.com example2@gmail.com\" (without backslash)"
     },
     "telegram": {
       "enable": false,
       "botToken": "",
       "chatId": "",
-      "note": "Can send notifications to
+      "note": "Can send notifications to many chatId, separate by comma or space, example: \"123456789 987654321\" (without backslash)"
+    },
+    "discordHook": {
+      "enable": false,
+      "webhookUrl": "",
+      "note": "Can send notifications to many webhookUrl, separate by comma or space, example: \"https://discord.com/api/webhooks/123456789/123456789 https://discord.com/api/webhooks/987654321/987654321\" (without backslash)"
+    }
+  },
+  "hideNotiMessage": {
+    "wrongCommand": false,
+    "adminOnly": false,
+    "threadBanned": false,
+    "userBanned": false
+  },
+  "logEvents": {
+    "disableAll": false,
+    "message": true,
+    "message_reaction": true,
+    "message_unsend": true,
+    "message_reply": true,
+    "event": true,
+    "read_receipt": false,
+    "typ": false,
+    "presence": false
+  },
+  "optionsFca": {
+    "forceLogin": true,
+    "listenEvents": true,
+    "updatePresence": true,
+    "listenTyping": true,
+    "logLevel": "error",
+    "selfListen": false,
+    "selfListenEvent": true,
+    "autoMarkDelivery": false,
+    "autoReconnect": true,
+    "notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions "
+  }
+  }
