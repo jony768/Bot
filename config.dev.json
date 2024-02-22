@@ -1,7 +1,7 @@
 {
   "facebookAccount": {
-    "email": "flogin485@gmail.com ",
-    "password": "zzzxxx",
+    "email": "",
+    "password": "",
     "2FASecret": "",
     "i_user": "",
     "proxy": null,
@@ -9,7 +9,7 @@
     "intervalGetNewCookie": 1440,
     "notes": "time the system automatically retrieves new cookies from email/password, unit is minute, if you set null, the system will not automatically retrieve new cookies, it saves you from having to manually change your cookie every time it expires. recommended set to 1440 (1day) or 4320 (3day).TO BE ABLE TO USE THIS FEATURE YOU NEED TO ENTER THE ACCOUNT PASSWORD ABOVE"
   },
-  "antiInbox": false,
+  "antiInbox": true,
   "language": "en",
   "notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
   "adminOnly": {
@@ -17,19 +17,16 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "100087967063688",
-    "",
-    "61555393416824"
+    "100083043846915",
+    "-100051522635038",
+    "100089360940322"
   ],
   "whiteListMode": {
-    "enable": true,
-    "whiteListIds": [
-      "100087967063688",
-      "61555393416824"
-    ],
+    "enable": false,
+    "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "FRiDA",
+  "nickNameBot": "ভালোবাসার রাজপুত্র ❤ আই",
   "prefix": "-",
   "database": {
     "type": "sqlite",
@@ -38,18 +35,18 @@
     "autoRefreshThreadInfoFirstTime": true,
     "notes": "(1) type selects 'json' or 'sqlite' or 'mongodb'. If you choose mongodb, enter uri connect mongodb in the uriMongodb section, instructions to get uri connect mongodb at: https://youtu.be/z1f9urHW5xY. I recommend using 'mongodb' or 'sqlite', json is not recommended because it is not stable. (2) when you set autoSyncWhenStart to true, the bot will automatically synchronize the data in the database when starting the bot, this will make the bot start slower. (3) when you set autoRefreshThreadInfoFirstTime to true, the bot will automatically refresh the thread information when get first message from the thread since starting the bot"
   },
-  "timeZone": "Asia/Ho_Chi_Minh",
+  "timeZone": "Asia/Kathmandu",
   "credentials": {
     "gmailAccount": {
-      "email": "nashvillanueva011@gmail.com",
-      "clientId": "1039119486251-uecc99cm73qjdng2qennpkgknm17j5mk.apps.googleusercontent.com",
-      "clientSecret": "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",
-      "refreshToken": "1//04leedTS_qk2rCgYIARAAGAQSNwF-L9Irdqi5JlqyPDqZmZxGtzdy6bt5E3h-gbut0Sitbvlne_mR7qJLvYYAs1NNeKwHshatpG0",
-      "apiKey": "ya29.a0AfB_byA_5dyJRmS_hCo5LWry0UgP6LsfS8IGl__D4CWtme4M7Rt2cMv04v57CfufdtRm5IXVgFmNnHFtfKfmMaWPVmGtEbqs7zmkjf9Y474OwOPRkkR0BD3RvWMtcDPQDSZwdOLhIMDYBcXFA0-jdgM3M7szCaU54-3kaCgYKAecSARMSFQGOcNnCfr0HmbB-l6ghhyQT28GElQ0171"
+      "email": "yogeshdeuba51@gmail.com",
+      "clientId": "335951889803-q0sqvpqjire12vl0c1drqpvq6trqe7qi.apps.googleusercontent.com",
+      "clientSecret": "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",
+      "refreshToken": "1//04vKSsirtbMjRCgYIARAAGAQSNwF-L9Ir45Y2gJy6rg7wvfCbzF5fTFQxOhV83N6jQC-N5n6S-rNnEUgujiuWu4OvrLEbmELMcSI",
+      "apiKey": ""
     },
     "gRecaptcha": {
-      "siteKey": "6Lc5EdgoAAAAAEv68jPEPY-5E0On3OcGiS7eFJIJ",
-      "secretKey": "6Lc5EdgoAAAAAGDtxbP7mdmK-0VuIBZSlSYOGZoN"
+      "siteKey": "6LcEPTMpAAAAAKRhQmTp03g4rkq-U6jXs8E8rDf5",
+      "secretKey": "6LcEPTMpAAAAAKRhQmTp03g4rkq-U6jXs8E8rDf5"
     }
   },
   "dashBoard": {
@@ -67,7 +64,7 @@
     }
   },
   "autoRestart": {
-    "time": 3600000,
+    "time": 86400000,
     "notes": "you can set time is interval with milisecond or cron time, example: 1000, 10000, 60000, 3600000, 86400000, 0 0 * * *,... docs: https://www.npmjs.com/package/node-cron. If you set time is 0 or false or null, the bot will not auto restart"
   },
   "autoUptime": {
@@ -115,7 +112,9 @@
     "wrongCommand": false,
     "adminOnly": false,
     "threadBanned": false,
-    "userBanned": false
+    "userBanned": false,
+    "needRoleToUseCmdOnReply": false,
+    "needRoleToUseCmdOnReaction": false
   },
   "logEvents": {
     "disableAll": false,
@@ -140,4 +139,4 @@
     "autoReconnect": true,
     "notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions "
   }
-  }
+    }
