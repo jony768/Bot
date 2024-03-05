@@ -1,7 +1,7 @@
 {
   "facebookAccount": {
-    "email": "flogin485@gmail.com",
-    "password": "oooppp",
+    "email": "santiagokwerero@gmail.com",
+    "password": "pppooo",
     "2FASecret": "",
     "i_user": "",
     "proxy": null,
@@ -22,14 +22,14 @@
     "61555393416824"
   ],
   "whiteListMode": {
-    "enable": true,
+    "enable": false,
     "whiteListIds": [
       "100087967063688",
       "61555393416824"
     ],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "Chesca",
+  "nickNameBot": "BuLmA",
   "prefix": "-",
   "database": {
     "type": "sqlite",
