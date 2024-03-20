@@ -1,7 +1,7 @@
 {
   "facebookAccount": {
-    "email": "beyoncelopez693@gmail.com ",
-    "password": "",
+    "email": "hgg637134@gmail.com",
+    "password": "mmmnnn",
     "2FASecret": "",
     "i_user": "",
     "proxy": null,
@@ -29,7 +29,7 @@
     ],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "BeyONcE",
+  "nickNameBot": "ScAKLeTT",
   "prefix": "-",
   "database": {
     "type": "sqlite",
